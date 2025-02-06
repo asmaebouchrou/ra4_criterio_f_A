@@ -1,6 +1,6 @@
 /**
  * Clase computer que represanta a ordenadores en general
- * @author Manuel Molino
+ * @author Manuel Molino && Encarni Muñoz
  * @version 1.0.0
  */
 public class Computer {
