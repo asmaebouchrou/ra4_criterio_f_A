@@ -8,5 +8,15 @@ public class Computer {
     private float cpu;
     private String motherBoard;
 
+    public int getRam() {
+        return ram;
+    }
 
+    public float getCpu() {
+        return cpu;
+    }
+
+    public String getMotherBoard() {
+        return motherBoard;
+    }
 }
