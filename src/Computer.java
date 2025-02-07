@@ -7,6 +7,13 @@ public class Computer {
     private int ram;
     private float cpu;
     private String motherBoard;
+
+    public Computer(int ram, float cpu, String motherBoard) {
+        this.ram = ram;
+        this.cpu = cpu;
+        this.motherBoard = motherBoard;
+    }
+
     /*Setter de la ram*/
     public void setRam(int ram) {
         this.ram = ram;
