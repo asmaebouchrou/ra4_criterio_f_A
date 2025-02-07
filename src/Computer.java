@@ -8,5 +8,12 @@ public class Computer {
     private float cpu;
     private String motherBoard;
 
-
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "ram=" + ram +
+                ", cpu=" + cpu +
+                ", motherBoard='" + motherBoard + '\'' +
+                '}';
+    }
 }
