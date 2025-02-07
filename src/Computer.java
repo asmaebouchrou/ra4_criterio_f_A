@@ -36,4 +36,14 @@ public class Computer {
     public String getMotherBoard() {
         return motherBoard;
     }
+    /**
+     * Método toString que muestra los valores de cada una de las variables: ram, cpu, motherBoard*/
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "ram=" + ram +
+                ", cpu=" + cpu +
+                ", motherBoard='" + motherBoard + '\'' +
+                '}';
+    }
 }
