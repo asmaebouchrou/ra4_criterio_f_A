@@ -21,4 +21,19 @@ public class Computer {
     public void setMotherBoard(String motherBoard) {
         this.motherBoard = motherBoard;
     }
+    /**
+     * Getter para Ram*/
+    public int getRam() {
+        return ram;
+    }
+    /**
+     * Getter para cpu*/
+    public float getCpu() {
+        return cpu;
+    }
+    /**
+     * Getter para MotherBoard*/
+    public String getMotherBoard() {
+        return motherBoard;
+    }
 }
