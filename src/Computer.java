@@ -7,6 +7,7 @@ public class Computer {
     private int ram;
     private float cpu;
     private String motherBoard;
-
+    /*
+    * Documentación*/
 
 }
